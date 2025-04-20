@@ -23,9 +23,9 @@
         </div>
 
         <div class="bird-sketches">
-            <h2>Шувууны набросок зургууд</h2>
+            <h2>Шувууны скиз зургууд</h2>
             <div class="sketches-container" id="birdSketches">
-                <!-- Набросок зургууд энд харуулагдана -->
+                <!-- скиз зургууд энд харуулагдана -->
             </div>
         </div>
     </main>
@@ -82,9 +82,9 @@
                     </div>
                 `;
 
-                // Тухайн шувууны набросок зургуудыг харуулах
+                // Тухайн шувууны скиз зургуудыг харуулах
                 const sketchesHTML = bird.sketches.map(sketch => 
-                    `<img src="${sketch}" alt="${bird.name} набросок" class="sketch-image">`
+                    `<img src="${sketch}" alt="${bird.name} скиз" class="sketch-image">`
                 ).join('');
 
                 document.getElementById('birdSketches').innerHTML = `
